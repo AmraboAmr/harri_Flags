@@ -1,0 +1,122 @@
+@font-face {
+    font-family: NunitoSans;
+    src: url(NunitoSans-Regular.ttf);
+}
+body{
+    font-family: NunitoSans;
+    color: #111517;
+}
+
+
+    header{
+   margin-top: 0;
+background-color: white;
+width: 100%;
+margin-bottom: 2px;
+        height: 50px;
+        box-shadow:  2px 0 20px 0 rgba(0, 0, 0, 0.15);
+
+    }
+
+
+#headerTitle{
+    float: left;
+    color: black;
+    text-align: center;
+
+    padding-left: 40px;
+    padding-top: 12px;
+    font-size: 20px;
+    font-weight: 800;
+
+
+
+}
+
+#headerRight{
+    float: right;
+    color: black;
+    text-align: center;
+    padding-top:12px;
+    padding-right: 40px;
+    font-size: 15px;
+    font-weight: 600;
+}
+#moon{
+    margin-right: 5px;
+}
+main{
+    width: 100%;
+
+    background-color: #fafafa;
+    float: left;
+}
+img{
+    width: 220px;
+    height: 120px;
+    object-fit: cover;
+
+}
+figure{
+    width:max-content;
+
+
+    display: inline-block;
+    background-color: white;
+    box-shadow:  0 2px 20px 0 rgba(0, 0, 0, 0.05);
+
+
+    border-radius: 5px;
+
+
+}
+.shadow{
+    box-shadow:  0 2px 20px 0 rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+
+}
+figcaption {
+    padding-left: 12px;
+}
+
+.countryName{
+    font-size: 16px;
+    font-weight: bolder;
+  margin: 10px;
+}
+.countryFeature{
+    font-size: 12px;
+    margin-left: 10px;
+    font-weight:600 ;
+    margin-bottom: 5px;
+}
+.featureValue{
+    font-weight: 300;
+
+}
+#searchBar{
+margin-left: 40px;
+    background-color: white;
+    width: 440px;
+    padding-left: 20px;
+
+    margin-bottom: 30px;
+    margin-top: 30px;
+    height: 40px;
+}
+#search{
+width: 80%;
+    height: 80%;
+    border: none;
+    margin-left: 10px;
+    font-weight: 300;
+
+
+
+}
+#searchIcon{
+    cursor: pointer;
+padding-top: 12px;
+}
+
+
