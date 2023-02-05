@@ -1,0 +1,186 @@
+@font-face {
+    font-family: NunitoSans;
+    src: url(NunitoSans-Regular.ttf);
+}
+body{
+    font-family: NunitoSans;
+    color: #111517;
+    margin: 0 0 0 0;
+    background-color: #fafafa;
+    width: 100%;
+}
+
+
+header{
+    margin-top: 0;
+    background-color: white;
+    width: 100%;
+    margin-bottom: 2px;
+    height: 50px;
+    box-shadow:  2px 0 20px 0 rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+#headerTitle{
+    float: left;
+    color: black;
+    text-align: center;
+
+    padding-left: 40px;
+    padding-top: 12px;
+    font-size: 18px;
+    font-weight: 800;
+
+
+
+}
+
+#headerRight{
+    float: right;
+    color: black;
+    text-align: center;
+    padding-top:12px;
+    padding-right: 40px;
+    font-size: 15px;
+    font-weight: 600;
+}
+#moon{
+    margin-right: 5px;
+}
+.shadow{
+    box-shadow:  0 2px 15px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+
+}
+main{
+    width: 100%;
+    background-color: #fafafa;
+    margin: auto;
+    display: block;
+
+}
+#backText{
+
+}
+
+#backB{
+    display: inline-block;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left:40px ;
+}
+img{
+display: inline-block;
+    width :40%;
+
+
+    margin-left: 40px;
+    margin-bottom: 50px;
+
+}
+.countryFeature{
+    font-size: 10px;
+    margin-left: 10px;
+    font-weight:600 ;
+    margin-bottom: 5px;
+}
+.featureValue{
+    font-weight: 300;
+
+}
+
+.container2{
+
+width: 80%;
+margin-bottom: 20px;
+
+display: flex;
+    flex-direction: row;
+
+}
+#caption{
+
+margin-right: 40px;
+    width: max-content;
+
+}
+#caption2{
+    display: inline-block;
+margin-left: 40px;
+margin-top: 20%;
+}
+h1{
+    margin-left: 5px;
+    font-size:18px ;
+}
+#borders{
+width: 100%;
+    margin-top: 40px;
+
+
+
+}
+.borderB{
+   margin-right: 10px;
+    font-size: 10px;
+    background-color: white;
+    border: none;
+    text-align: center;
+    width: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.container3 {
+
+    float: right;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+#bT{
+    margin-right: 10px;
+ }
+@media only screen and (max-width: 550px) {
+    img{
+        width: 80%;
+    }
+   header{
+       width: 100%;
+   }
+   .container3{
+      float: left;
+       margin-left: 35px;
+       width: 100%;
+       margin-right: 40px;
+
+   }
+   #caption2{
+       margin-left: 0;
+   }
+ .container2{
+     flex-direction: column;
+     width: 80%;
+
+ }
+    img{
+        display: block;
+    }
+
+    #headerTitle{
+        padding-left: 20px;
+    }
+    #borders{
+        margin-left: 10px;
+    }
+    #bT{
+        display: block;
+        margin-left: 0;
+    }
+
+}
